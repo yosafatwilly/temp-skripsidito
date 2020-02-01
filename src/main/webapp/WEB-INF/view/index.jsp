@@ -1,7 +1,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="z" tagdir="/WEB-INF/tags" %>
-<z:layout pageTitle="KNN - Index">
+<z:layout pageTitle="KNN - Home">
     <div class="row tm-content-row">
         <label class="tm-hide-sm">&nbsp;</label>
         <div class="col-12 tm-block-col">
