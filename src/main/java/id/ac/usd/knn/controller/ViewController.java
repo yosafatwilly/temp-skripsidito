@@ -49,7 +49,6 @@ public class ViewController {
         double akurasi  = knnService.hitungAkurasi(testRecords, inputK);
         ModelAndView modelAndView = new ModelAndView("/index");
         modelAndView.addObject("akurasi", akurasi);
-        modelAndView.addObject("testing", testRecords);
         return modelAndView;
     }
 
